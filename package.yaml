@@ -1,0 +1,39 @@
+---
+name              : zim-server
+version           : 0.1.0.0
+stability         : alpha
+category          : Codec
+synopsis          : Webserver that serves ZIM files locally
+description       : |
+  zim-server is an example project that uses zim-parser to serve
+  ZIM files locally.
+
+license           : GPL-3
+author            : Robbin C. <robbinch33@gmail.com>
+maintainer        : Robbin C. <robbinch33@gmail.com>
+copyright         : Copyright (c) 2015 Robbin C.
+github            : robbinch/zim-server
+ghc-options       : -Wall
+
+dependencies:
+  - base == 4.*
+  - array
+  - binary
+  - bytestring
+  - resourcet
+  - conduit
+  - conduit-extra
+  - binary-conduit
+  - lzma-conduit
+  - zim-parser
+  - transformers
+  - text
+  - http-types
+  - scotty
+
+source-dirs: src
+
+executables:
+  zim-server:
+    main: Main.hs
+
