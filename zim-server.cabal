@@ -19,6 +19,9 @@ license-file:   LICENSE
 build-type:     Simple
 cabal-version:  >= 1.10
 
+extra-source-files:
+    test/wikipedia_en_ray_charles_2015-06.zim
+
 source-repository head
   type: git
   location: https://github.com/robbinch/zim-server

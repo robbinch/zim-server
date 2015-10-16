@@ -14,6 +14,7 @@ maintainer        : Robbin C. <robbinch33@gmail.com>
 copyright         : Copyright (c) 2015 Robbin C.
 github            : robbinch/zim-server
 ghc-options       : -Wall
+extra-source-files: test/wikipedia_en_ray_charles_2015-06.zim
 
 dependencies:
   - base == 4.*

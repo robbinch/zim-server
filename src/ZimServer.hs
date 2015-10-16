@@ -1,6 +1,7 @@
 {-# LANGUAGE OverloadedStrings #-}
 module ZimServer (zimServerApp) where
 
+import Control.Applicative ((<$>))
 import Control.Monad.IO.Class (liftIO)
 import Data.Text.Lazy (toStrict, fromStrict)
 import Data.Text.Encoding (decodeUtf8, encodeUtf8)
