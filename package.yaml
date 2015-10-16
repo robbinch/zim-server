@@ -37,3 +37,12 @@ executables:
   zim-server:
     main: Main.hs
 
+tests:
+  spec:
+    main: Spec.hs
+    source-dirs: test
+    dependencies:
+      - hspec == 2.*
+      - hspec-wai
+      - wai
+      - wai-extra
